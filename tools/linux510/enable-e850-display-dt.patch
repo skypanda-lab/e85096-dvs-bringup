@@ -1,0 +1,13 @@
+diff --git a/arch/arm64/boot/dts/exynos/s5e3830.dts b/arch/arm64/boot/dts/exynos/s5e3830.dts
+index 7e59bd7bb..16a12488d 100755
+--- a/arch/arm64/boot/dts/exynos/s5e3830.dts
++++ b/arch/arm64/boot/dts/exynos/s5e3830.dts
+@@ -34,7 +34,7 @@
+ #include "s5e3830-cpu.dtsi"
+ #include "s5e3830-ems.dtsi"
+ #include "s5e3830-xperf.dtsi"
+-//#include "s5e3830-dpu.dtsi"
++#include "s5e3830-dpu.dtsi"
+ #include "s5e3830-usb.dtsi"
+ #include "s5e3830-security.dtsi"
+ #include "s5e3830-pm-domains.dtsi"
